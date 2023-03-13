@@ -16,3 +16,20 @@ Notes/Elements:
 
     <footer></footer> is used as the footer of a web page. You can have multiple <footer> elements on a page, but note that they aren't part of the outline algorithm of a page. 
 
+    <hgroup></hgroup> is used when a group of elements have headings and subheadings within the overall section of a web page. For instance, if you have an <h2> heading and a subheading, the subheading should not be <h3>, rather, it should be a <p> and both elements should be wrapped in a <hgroup> element. <p> elements can come before or after the heading element.
+
+    <div></div> has no semantic value and should only used for wrapping elements that need styling. Only use <div> when you have no other options. 
+
+    <p></p> is used for paragraphs and specific text.
+
+    <blockquote></blockquote> is used for citing information from an outside source. It can have a <p> element within, but does not have to. Attribution of the quoted text should be done outside of the <blockquote>.
+
+    <figure></figure> is used for self-contained elements, not necessarily independent elements. Self-contained in this context means independent within some flow of content. For instance, if you were writing an article or blog post and put a picture of the subject of the post somewhere within the post but are not using it specifically for the subject of the post, you would wrap the <img> in a <figure> element and include a <figcaption> for semantic purposes to help assistive technologies. Compare that to when you are using an <img> within a sentence, perhaps within a <blockquote>, you would not use a <figure> element because the <img> is the subject of the content itself. 
+
+    <details></details> is used to create drop down widgets. Within <details> you should have a <summary> element that will tell the user something, perhaps what the drop down is about, and then a <p> or some other element to actually show upon clicking the drop down. These are really useful for FAQ pages but need a bit of CSS to not look like absolute trash.
+
+    <address></address> is used for providing contact information, not phsyical address information. Basically, just use this for providing email addresses and phone numbers. 
+
+    
+
+    
