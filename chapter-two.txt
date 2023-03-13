@@ -1,0 +1,18 @@
+Chapter Two
+
+Notes/Elements:
+
+    <main></main> is used to present the content on a web page that is unique to that page and will not be found elsewhere. This will typically be found below the <header> and <nav> elements, and, typically, there should not be more than one <main> element per page and shouldn't be used as a descendent child element of othe semantic HTML.
+
+    <section></section> is used to section an element or group of elements. For instance, if you have a hierarchical structured page of <h1>-<h6>, and in that structure you have multiple <h3> elements. You could wrap each <h3> element in a <section>. <section> elements aren't to be used to styling purposes, only for generic sectioning of natural headings. If the content doens't have headings and you need something for styling, opt for a <div>.
+
+    <nav></nav> is used for navigational links to other pages or different parts of the same page. 
+
+    <article></article> is used for wrapping self-contained content on a page. The content within an article should make sense if it were moved to a completely different page with no context. Consider how a web search works. Each result in a web search is an <article>. The difference between <article> and <section> is that <article> elements are for stand-alone content.
+
+    <aside></aside> is used to section elements of content that is tangentially related but considered separate from the content. Examples could includes natigation elements, pull quotes, advertising, and sidebars.
+
+    <header></header> is the header of a web page. It can be used elsewhere in the web page, such as in each <article> of a page as well. Note that <header> elements aren't part of the outline algorithm of a web page. 
+
+    <footer></footer> is used as the footer of a web page. You can have multiple <footer> elements on a page, but note that they aren't part of the outline algorithm of a page. 
+
