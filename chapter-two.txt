@@ -30,6 +30,16 @@ Notes/Elements:
 
     <address></address> is used for providing contact information, not phsyical address information. Basically, just use this for providing email addresses and phone numbers. 
 
-    
+    <span></span> is the in-line, text-level equivalent of <div>. If you want to style some specific text within a <p>, for instance, you can use a <span> to style to text without moving all of the following text to a new line.     
 
+    <strong></strong> is an in-line element that is used to emphasize strength, urgency, or importance. 
+
+    <em></em> is an in-line element that is used to emphasize something within text.
+
+    <i></i> is an in-line element used in a span of text to convey an alternative voice or mood.
+
+    <video></video> is used to insert videos into a web page. The syntax for video will be something like this: <video src="my-video.mp4"</video> and you can also give height, width, control attributes, and a variety of other attributes. If you have multiple source types of video format, you can use the <source> element within the <video> element. Place it after the other attributes and put the src link within the <source>. A problem you'll run into with <video> is dealing with the aspect ratio of the video. Some CSS will need to be used here. For embedding videos, http://embedresponsively.com/ can be useful.
     
+    <audio></audio> is basically the same as <video> other than having a few different attributes.
+
+    <dialog></dialog> is used to create dialog boxes on a web page.    
