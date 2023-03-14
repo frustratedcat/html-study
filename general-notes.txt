@@ -1,0 +1,4 @@
+Included herein is a listing of general notes that I will make as I go.
+
+Chapter 3: 
+    Skipped 'Advanced media query considerations' section and will come back to it when I have more experience with media queries.
