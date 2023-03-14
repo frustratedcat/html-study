@@ -22,4 +22,12 @@ Note that you can concatenate selectors here by using the 'and' keyword, or if y
 
 The main uses of media queries is print, orientation, max-width, and min-width. To see more, look at page 73 and 74 of the textbook.
 
+The pointer feature has three different states for the primary pointing device: 
+    none
+    coarse - for touchscreens or game pads
+    fine - for mice
+It is generally a best practice to use coarse as it works fine with mice even though a mouse is not the intended device.
+The syntax is: @media (pointer: coarse) {}
 
+The prefers-color-scheme feature is useful to decide the main background-color and color of your site. It can be dark, light, or no-preference. These should be in the root of your style sheet (at the top). 
+The syntax is: @media (prefers-color-scheme: dark) {}

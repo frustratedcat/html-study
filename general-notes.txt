@@ -2,3 +2,5 @@ Included herein is a listing of general notes that I will make as I go.
 
 Chapter 3: 
     Skipped 'Advanced media query considerations' section and will come back to it when I have more experience with media queries.
+    Ned to go back to 'Media Queries Level 5' on page 81 when I'm more experienced so I can figure out what he's really talking about.
+
