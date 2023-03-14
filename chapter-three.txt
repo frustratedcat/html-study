@@ -1,0 +1,25 @@
+Chapter Three
+
+Media queries are used to work with different device and screen types. 
+The general syntax is as follows in your stylesheet:
+    
+    @media screentype/devicetype and (selector: attribute) {
+	regular CSS code will go here
+    }
+
+To use media queries, start with @media and then give the device type. You don't actually have to specify the device type and leaving it out will default to the 'all' type. You put 'and' between the device type and the selector.  The selector is what you want to target, max-width for instance. Within the {} you'll just type your normal CSS code.
+If the device type and selector are evaluated as true statements, the CSS code will run, otherwise, it's ignored by the browser. 
+
+For example, if we run the following:
+    @media all and (max-width: 500px) {
+	body {
+	    color: blue;
+	}
+    }
+Here, we are evaluating for all device types and a max-width of 500px. If the screen size evaluates as true, the text color within the body type will be evaluated and the text will be blue.
+
+Note that you can concatenate selectors here by using the 'and' keyword, or if you want to evaluate for 'or', just use a comma.
+
+The main uses of media queries is print, orientation, max-width, and min-width. To see more, look at page 73 and 74 of the textbook.
+
+
